@@ -1,0 +1,70 @@
+/* General Page Styling */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+/* News Section */
+.news-container {
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Map Styling */
+.map-container {
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+}
+
+/* App Header */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-logo {
+  height: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
